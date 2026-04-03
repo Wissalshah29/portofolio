@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/python/3776AB\" -o python.svg)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/postgresql/4169E1\" -o postgresql.svg)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/git/F05032\" -o git.svg)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/supabase/3ECF8E\" -o supabase.svg)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/docker/2496ED\" -o docker.svg)",
+      "Bash(ls -la \"F:/New Portfolio/portofolio-main 2/portofolio-main/public/assets/tools/\"*.svg)",
+      "Bash(curl -sv \"https://cdn.simpleicons.org/amazonwebservices/FF9900\" -o aws.svg)",
+      "Bash(curl -sv \"https://cdn.simpleicons.org/openai/10a37f\" -o openai.svg)",
+      "Bash(curl -s \"https://cdn.simpleicons.org/aws/FF9900\" -o \"F:/New Portfolio/portofolio-main 2/portofolio-main/public/assets/tools/aws.svg\")",
+      "Bash(curl -s \"https://simpleicons.org/icons/amazonaws.svg\")",
+      "Bash(curl -s \"https://simpleicons.org/icons/openai.svg\")",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c ':*)",
+      "Bash(node:*)"
+    ]
+  }
+}
