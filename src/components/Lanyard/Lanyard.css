@@ -1,0 +1,132 @@
+.lanyard-wrapper {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+  margin-top: -60px;
+}
+
+.lanyard-scene {
+  position: relative;
+  width: 260px;
+  height: 520px;
+}
+
+.lanyard-anchor {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle, #888 0%, #444 100%);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  z-index: 10;
+}
+
+.lanyard-rope {
+  position: absolute;
+  left: 50%;
+  top: 7px;
+  width: 4px;
+  transform-origin: top center;
+  background: linear-gradient(to bottom, #777 0%, #9b6b3a 40%, #7a5228 100%);
+  border-radius: 2px;
+  z-index: 5;
+  box-shadow: 1px 0 3px rgba(0,0,0,0.3);
+}
+
+.lanyard-card {
+  position: absolute;
+  left: 50%;
+  width: 190px;
+  background: linear-gradient(160deg, #1c1c2e 0%, #12121f 100%);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.7),
+    0 0 0 1px rgba(255,255,255,0.04) inset;
+  cursor: grab;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden;
+  transform-origin: top center;
+}
+
+.lanyard-card:active {
+  cursor: grabbing;
+}
+
+.card-photo-wrap {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 14px 14px 0 0;
+}
+
+.card-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: grayscale(100%) contrast(1.05);
+  display: block;
+  pointer-events: none;
+}
+
+.card-body {
+  padding: 14px 14px 16px;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.03), transparent);
+}
+
+.card-body h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 3px;
+  letter-spacing: 0.3px;
+}
+
+.card-body p {
+  font-size: 11px;
+  color: rgba(255,255,255,0.5);
+  margin: 0 0 10px;
+}
+
+.card-stripe {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #7c3aed, #06b6d4, transparent);
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.card-badge {
+  display: inline-block;
+  background: rgba(124, 58, 237, 0.2);
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  color: #a78bfa;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.card-hole {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: #0a0a14;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.12);
+  z-index: 2;
+}
